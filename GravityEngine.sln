@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravityEngine", "GravityEngine\GravityEngine.csproj", "{F14812D0-0634-43CE-92B0-766C99CECE4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14812D0-0634-43CE-92B0-766C99CECE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14812D0-0634-43CE-92B0-766C99CECE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14812D0-0634-43CE-92B0-766C99CECE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14812D0-0634-43CE-92B0-766C99CECE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {898BFB7B-E00B-45F8-BF3B-B7C7E2A3E295}
+	EndGlobalSection
+EndGlobal
