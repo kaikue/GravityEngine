@@ -69,6 +69,7 @@ A puzzle platformer where you can't jump, but you can change the direction of gr
 - Lever switch on/off
 - Button press/release
 - Door open/close
+- Moonling shuffle
 
 ## Puzzles
 - Move during midair fall (avoid spikes)
