@@ -11,6 +11,7 @@ namespace GravityEngine
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+		Color backgroundColor = new Color(20, 16, 32);
         
         public Game()
         {
@@ -26,9 +27,10 @@ namespace GravityEngine
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+			// TODO: Add your initialization logic here
+			Window.Title = "Spaceman Splink and the Gravity Engine";
 
-            base.Initialize();
+			base.Initialize();
         }
 
         /// <summary>
@@ -73,7 +75,7 @@ namespace GravityEngine
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(backgroundColor);
 
             // TODO: Add your drawing code here
 

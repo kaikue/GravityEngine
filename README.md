@@ -4,11 +4,11 @@ A puzzle platformer where you can't jump, but you can change the direction of gr
 ## Features (TODO)
 - Rendering tiles
 - Player movement
-	- Arrow keys
+	- Arrow keys or left stick
 	- Collision with tiles
 	- Gravity
 - Change gravity
-	- WASD
+	- WASD or right stick
 	- Rotates player sprite
 	- Can't change while in midair
 - Level editor
