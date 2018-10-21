@@ -2,7 +2,7 @@
 A puzzle platformer where you can't jump, but you can change the direction of gravity.
 
 ## Features (TODO)
-- Loading tiles
+- Rendering tiles
 - Player movement
 	- Arrow keys
 	- Collision with tiles
@@ -19,10 +19,12 @@ A puzzle platformer where you can't jump, but you can change the direction of gr
 - Portals
 	- Advance to next level
 - Spikes
-	- Kill you, restart level
+	- Kill you (you freeze & flicker for a second, then restart level)
 	- Don't hurt if you walk through from the side?
 - Crates
 	- Follow player's changed gravity
+	- Can't change gravity while any crate is in midair?
+		- otherwise crates could be manipulated pretty easily
 - Mechanical parts
 	- Levers
 		- Toggle something when switched (walk or fall over)
@@ -39,6 +41,7 @@ A puzzle platformer where you can't jump, but you can change the direction of gr
 	- Fall with gravity
 	- Turn when reaching block or edge
 - Water?
+	- Dunno how this would work mechanically but floating blobs of water would be cool
 - Ice?
 	- Can't stop moving on it
 
@@ -59,6 +62,7 @@ A puzzle platformer where you can't jump, but you can change the direction of gr
 - Moonling
 
 ###Sound
+- Chill chiptune music
 - Player walk
 - Switch gravity
 - Fall (humming)
