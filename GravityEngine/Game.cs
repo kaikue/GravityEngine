@@ -12,7 +12,9 @@ namespace GravityEngine
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 		Color backgroundColor = new Color(20, 16, 32);
-        
+
+        Texture2D moonTile;
+
         public Game()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -41,6 +43,8 @@ namespace GravityEngine
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            moonTile = Content.Load<Texture2D>("Tiles/moontile");
 
             // TODO: use this.Content to load your game content here
         }
@@ -78,6 +82,12 @@ namespace GravityEngine
             GraphicsDevice.Clear(backgroundColor);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(moonTile, new Vector2(400, 240), Color.White);
+
+            spriteBatch.End();
+
 
             base.Draw(gameTime);
         }
